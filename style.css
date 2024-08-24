@@ -60,11 +60,6 @@ nav ul li a::after {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
 }
-
-nav ul li a:hover::after {
-    width: 100%;
-}
-
 .header-text{
     margin-top: 20%;
     font-size: 30px;
