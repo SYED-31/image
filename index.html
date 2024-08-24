@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ff8e3cfde2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Data Analyst</p>
+                <h1>Hi, I'm <span>Syed Mahek</span><br> Siddikha from India.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--------------about--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am a passionate undergraduate student with a 
+                    degree in Artificial Intelligence and Data Science, 
+                    possessing strong competencies in Python and Power 
+                    BI. With a solid foundation in data analysis and 
+                    machine learning, I excel at leveraging data to solve 
+                    complex problems. I am eager to apply my analytical 
+                    skills, collaborative mindset, and dedication to 
+                    continuous learning to contribute effectively in a 
+                    dynamic and cooperative environment.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Organization')">Organization</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Analyst</span><br>Embrace data insights.</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id ="Education">
+                        <ul>
+                            <li><span>2021-Current</span><br>Artificial Intelligence and Data Science at VVIT.</li>
+                            <li><span>2019-2021</span><br>Intermediate from  Sri Sarada.</li>
+                            <li><span>2018-2019</span><br>CBSE from West Berry.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Organization">
+                        <ul>
+                            <li><span>Association for Computing Machinery Member</span><br>Volunteered for 'Spardha,' a technical and fun event for students. </li>
+                            <li><span>Connekt!</span><br> A communication enhancing workshop held by 3-AID students.</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--------------services------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I'm passionate about creating dynamic, visually stunning websites. I stay up-to-date with industry trends and continuously improve my skills to deliver innovative solutions.</p>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>I'm passionate about creating intuitive and visually appealing user experiences. I stay up-to-date with industry trends and continually improve my skills to deliver innovative design solutions.</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Modeling</h2>
+                <p>I'm a data modeling expert passionate about optimizing complex data and creating scalable systems. I stay updated on industry trends to deliver innovative solutions.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------Portfolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="p1.png">
+                <div class="layer">
+                    <h3>Analyzing Covid-19 Using R Programming</h3>
+                    <p>Applying different conditions to a dataset to analyze the COVID-19 report by using statistical analysis on the data.</p>
+                    <a href="https://github.com/SYED-31/Analyzing-covid-19-with-R/commit/c21e4678237733be3e9564bd2822971d2451b7da"> <i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="p2.png">
+                <div class="layer">
+                    <h3>Student Health Report</h3>
+                    <p>Created an interactive dashboard to track the mental health of the students studying at universities.</p>
+                    <a href="https://drive.google.com/file/d/11gPVwvoKL1IGE5aj0m1EKqX-A_TzOOE2/view"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="p3.png">
+                <div class="layer">
+                    <h3>Music For Your Mood</h3>
+                    <p>A webpage called "Music For Your Mood" is entirely composed of HTML. This website suggests songs based on your mood.</p>
+                    <a href="https://playlist-for-your-mood.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work hide">
+                <img src="p4.png">
+                <div class="layer">
+                    <h3>AI Tools</h3>
+                    <p>Developed an example webpage for a few AI tools that are helpful for everyday.</p>
+                    <a href="https://syed-31.github.io/AI-TOOLS-FOR-EVERYONE/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#portfolio" class="btn" id="see-more">See more</a>
+    <a href="#portfolio" class="btn" id="see-less" style="display: none;">See less</a>
+</div>
+
+<!-------------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@maheksiddikha.work@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://github.com/SYED-31"><i class="fa-brands fa-github"></i></a>
+                    <a href="www.linkedin.com/in/mahek-siddikha-syed"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.codechef.com/users/syedmahek944"><i class="fa-regular fa-closed-captioning"></i></a>
+                </div>
+                <a href="CV.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbybpbEkcSnuRd8DuryO2FM7qwjtoKszC9302qsZ8UhylkGoaiJKcEQyKH1MOx8PNN39/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script>
+    const projects = document.querySelectorAll('.work');
+    const seeMoreBtn = document.getElementById('see-more');
+    const seeLessBtn = document.getElementById('see-less');
+
+    let showMore = false; // Track the current state
+
+    seeMoreBtn.addEventListener('click', () => {
+      projects.forEach((project, index) => {
+        if (index >= 3) {
+          project.classList.remove('hide'); // Show hidden projects
+        }
+      });
+      seeMoreBtn.style.display = 'none';
+      seeLessBtn.style.display = 'block';
+      showMore = true;
+    });
+
+    seeLessBtn.addEventListener('click', () => {
+      projects.forEach((project, index) => {
+        if (index >= 3) {
+          project.classList.add('hide'); 
+        }
+      });
+      seeLessBtn.style.display = 'none';
+      seeMoreBtn.style.display = 'block';
+      showMore = false;
+    });
+  </script>
+</body>
+</html>
